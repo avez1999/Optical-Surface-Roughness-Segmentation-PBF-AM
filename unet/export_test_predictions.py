@@ -38,6 +38,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--train-ratio", type=float, default=0.7)
     parser.add_argument("--val-ratio", type=float, default=0.2)
     parser.add_argument("--test-ratio", type=float, default=0.1)
+    parser.add_argument(
+        "--image-name",
+        type=str,
+        default=None,
+        help="Export one named image instead of the fixed held-out test partition.",
+    )
     return parser.parse_args()
 
 
@@ -127,7 +133,7 @@ def label_metrics(pred_labels: Sequence[str], true_labels: Sequence[str]) -> Tup
 
 def main() -> None:
     args = parse_args()
-    export_dir = args.output_dir / "test_predictions"
+    export_dir = args.output_dir / ("image_prediction" if args.image_name else "test_predictions")
     images_dir = export_dir / "images"
     json_dir = export_dir / "json"
     images_dir.mkdir(parents=True, exist_ok=True)
@@ -146,9 +152,17 @@ def main() -> None:
         raise ValueError("Current dataset labels do not match checkpoint class map.")
 
     dataset = PolygonSegmentationDataset(samples=samples, class_map=class_map, image_size=image_size)
-    generator = torch.Generator().manual_seed(args.seed)
-    sizes = split_sizes(len(dataset), args.train_ratio, args.val_ratio, args.test_ratio)
-    _, _, test_dataset = random_split(dataset, list(sizes), generator=generator)
+    if args.image_name:
+        selected_indices = [
+            index for index, sample in enumerate(dataset.samples) if sample.image_path.name == args.image_name
+        ]
+        if len(selected_indices) != 1:
+            raise ValueError(f"Expected one dataset image named {args.image_name!r}, found {len(selected_indices)}.")
+    else:
+        generator = torch.Generator().manual_seed(args.seed)
+        sizes = split_sizes(len(dataset), args.train_ratio, args.val_ratio, args.test_ratio)
+        _, _, test_dataset = random_split(dataset, list(sizes), generator=generator)
+        selected_indices = list(test_dataset.indices)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = UNet(in_channels=3, num_classes=len(class_map), base_channels=base_channels).to(device)
@@ -159,7 +173,7 @@ def main() -> None:
     class_iou_totals = {class_name: [] for class_id, class_name in class_map_inv.items() if class_id != 0}
 
     with torch.no_grad():
-        for dataset_index in test_dataset.indices:
+        for dataset_index in selected_indices:
             sample = dataset.samples[dataset_index]
             image_tensor, true_mask_tensor = dataset[dataset_index]
             logits = model(image_tensor.unsqueeze(0).to(device))

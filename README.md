@@ -38,9 +38,9 @@ Example polished test image: `Coupon12-dome-60min250`. The ground-truth and pred
 | --- | --- | --- |
 | ![Optical image](assets/readme_example/optical_image.png) | ![Ground truth overlay](assets/readme_example/ground_truth_overlay.png) | ![Prediction overlay](assets/readme_example/prediction_overlay.png) |
 
-## Example Held-Out Prediction: As-Built
+## Example As-Built Prediction
 
-Example as-built test image: `Coupon11-dome-control`. The ground-truth and prediction panels are overlays on the same optical image. Red denotes `Anomaly`, blue denotes `Contour`, and green denotes `Powder`; uncolored regions are background.
+Example as-built image: `Coupon12-side-control`. The ground-truth and prediction panels are overlays on the same optical image. Red denotes `Anomaly`, blue denotes `Contour`, and green denotes `Powder`; uncolored regions are background.
 
 | Optical Image | Ground Truth Overlay | Prediction Overlay |
 | --- | --- | --- |
