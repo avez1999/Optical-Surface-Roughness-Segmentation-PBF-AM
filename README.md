@@ -30,9 +30,9 @@ The fixed splits contain 33/9/6 polished images and 9/2/2 as-built images. The s
 
 The eight held-out test triptychs are in `reports/heldout_inference/`. Each file presents the optical image, rendered manual-annotation overlay, and rendered prediction overlay side by side; its accompanying JSON records the image-level result.
 
-## Example Held-Out Prediction
+## Example CDF-Polished Prediction
 
-Example polished test image: `Coupon12-dome-60min250`. The ground-truth and prediction panels are overlays on the same optical image. Red denotes `Contour`, blue denotes `Polished`, and green denotes `Powder`; uncolored regions are background.
+Example CDF-polished image: `Coupon10-dome-90min150`. The ground-truth and prediction panels are overlays on the same optical image. Red denotes `Contour`, blue denotes `Polished`, and green denotes `Powder`; uncolored regions are background.
 
 | Optical Image | Ground Truth Overlay | Prediction Overlay |
 | --- | --- | --- |
