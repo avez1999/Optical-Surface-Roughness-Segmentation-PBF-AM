@@ -53,10 +53,6 @@ To evaluate a selected checkpoint on the reproducible held-out split:
 python unet/export_test_predictions.py --project-root . --checkpoint models/reference/polished_best_unet.pt --output-dir outputs_polished
 ```
 
-## Evaluation Note
-
-Test annotations are used only after inference to evaluate predictions; they are never supplied as model inputs. The current random image-level split is an internal held-out evaluation. A grouped split by coupon or processing condition is needed for a stronger unseen-build generalization claim.
-
 ## License and Citation
 
 The source code is released under the [MIT License](LICENSE). The optical images, polygon annotations, manifests, reports, model checkpoints, and inference exports are released under [CC BY 4.0](DATA_LICENSE.md). Citation metadata is provided in [`CITATION.cff`](CITATION.cff).
