@@ -30,6 +30,14 @@ The fixed splits contain 33/9/6 polished images and 9/2/2 as-built images. The s
 
 The eight held-out test triptychs are in `reports/heldout_inference/`. Each file presents the optical image, rendered manual-annotation overlay, and rendered prediction overlay side by side; its accompanying JSON records the image-level result.
 
+## Example Held-Out Prediction
+
+Example polished test image: `Coupon12-dome-60min250`. The ground-truth and prediction panels are overlays on the same optical image. Red denotes `Contour`, blue denotes `Polished`, and green denotes `Powder`; uncolored regions are background.
+
+| Optical Image | Ground Truth Overlay | Prediction Overlay |
+| --- | --- | --- |
+| ![Optical image](assets/readme_example/optical_image.png) | ![Ground truth overlay](assets/readme_example/ground_truth_overlay.png) | ![Prediction overlay](assets/readme_example/prediction_overlay.png) |
+
 ## Running the Models
 
 Install the dependencies listed in `requirements.txt`, then run from the repository root:
@@ -45,15 +53,9 @@ To evaluate a selected checkpoint on the reproducible held-out split:
 python unet/export_test_predictions.py --project-root . --checkpoint models/reference/polished_best_unet.pt --output-dir outputs_polished
 ```
 
-## Notes
+## Evaluation Note
 
-The test annotations are retained solely to evaluate predictions after inference. They are never supplied to the model as an input. The current random image-level split is an internal held-out evaluation; a grouped split by coupon or processing condition is required for a stronger unseen-build generalization claim.
-
-## Release Notes
-
-The repository includes the raw image data and is approximately 0.5 GB before Git metadata. Before making it public, confirm that the image data, annotations, trained checkpoints, and the selected code and data licenses may be redistributed.
-
-Before citing this repository in a paper, create a numbered GitHub release, add the final license and citation metadata, and cite the repository URL together with the release tag or commit hash.
+Test annotations are used only after inference to evaluate predictions; they are never supplied as model inputs. The current random image-level split is an internal held-out evaluation. A grouped split by coupon or processing condition is needed for a stronger unseen-build generalization claim.
 
 ## License and Citation
 
