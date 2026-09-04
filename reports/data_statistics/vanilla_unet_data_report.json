@@ -8,8 +8,8 @@
     }
   },
   "polished": {
-    "checkpoint": "/storage/work/aas6636/R_CNN/unet/outputs_polished_ep200_patience60/best_unet.pt",
-    "checkpoint_best_epoch": 34,
+    "checkpoint": "models/reference/polished_best_unet.pt",
+    "checkpoint_best_epoch": 33,
     "model": {
       "architecture": "vanilla U-Net",
       "base_channels": 32,
@@ -579,8 +579,8 @@
     }
   },
   "asbuilt": {
-    "checkpoint": "/storage/work/aas6636/R_CNN/unet/outputs_asbuilt_ep200_patience60/best_unet.pt",
-    "checkpoint_best_epoch": 32,
+    "checkpoint": "models/reference/asbuilt_best_unet.pt",
+    "checkpoint_best_epoch": 25,
     "model": {
       "architecture": "vanilla U-Net",
       "base_channels": 32,

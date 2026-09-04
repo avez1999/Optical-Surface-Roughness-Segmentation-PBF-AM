@@ -10,6 +10,7 @@ The two subsets are stored in `DATA/` and preserve a one-to-one relationship bet
 - `Asbuilt_PNGs_with_Annotation`: 13 as-built images. Classes: `background`, `Anomaly`, `Contour`, and `Powder`.
 
 The images cover dome, slope, side, and top surface views. The JSON files contain class labels and ordered polygon vertices.
+The field-level annotation format and the class maps are documented in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md).
 
 ## Repository Layout
 
@@ -51,3 +52,5 @@ The test annotations are retained solely to evaluate predictions after inference
 ## Release Notes
 
 The repository includes the raw image data and is approximately 0.5 GB before Git metadata. Before making it public, confirm that the image data, annotations, trained checkpoints, and the selected code and data licenses may be redistributed.
+
+Before citing this repository in a paper, create a numbered GitHub release, add the final license and citation metadata, and cite the repository URL together with the release tag or commit hash.
