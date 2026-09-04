@@ -54,3 +54,7 @@ The test annotations are retained solely to evaluate predictions after inference
 The repository includes the raw image data and is approximately 0.5 GB before Git metadata. Before making it public, confirm that the image data, annotations, trained checkpoints, and the selected code and data licenses may be redistributed.
 
 Before citing this repository in a paper, create a numbered GitHub release, add the final license and citation metadata, and cite the repository URL together with the release tag or commit hash.
+
+## License and Citation
+
+The source code is released under the [MIT License](LICENSE). The optical images, polygon annotations, manifests, reports, model checkpoints, and inference exports are released under [CC BY 4.0](DATA_LICENSE.md). Citation metadata is provided in [`CITATION.cff`](CITATION.cff).

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as described below."
+type: dataset
+title: "Annotated Optical Microscopy Data for Surface Feature Recognition in Laser Powder Bed Fusion"
+authors:
+  - family-names: Shaikh
+    given-names: Avez
+    affiliation: "Department of Mechanical Engineering, The Pennsylvania State University, University Park, Pennsylvania, USA"
+  - family-names: Deshpande
+    given-names: Aishwarya
+    affiliation: "Department of Mechanical Engineering, The Pennsylvania State University, University Park, Pennsylvania, USA"
+  - family-names: Jacob
+    given-names: Ashish
+    affiliation: "Department of Industrial and Manufacturing Engineering, The Pennsylvania State University, University Park, Pennsylvania, USA"
+  - family-names: Manogharan
+    given-names: Guha
+    affiliation: "Department of Mechanical Engineering and Department of Industrial and Manufacturing Engineering, The Pennsylvania State University, University Park, Pennsylvania, USA"
+repository-code: "https://github.com/avez1999/LPBF-Optical-Surface-Defect-Segmentation"
+url: "https://github.com/avez1999/LPBF-Optical-Surface-Defect-Segmentation"
+license: MIT
