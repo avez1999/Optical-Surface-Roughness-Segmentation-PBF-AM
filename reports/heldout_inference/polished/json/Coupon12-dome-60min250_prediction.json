@@ -1,0 +1,26 @@
+{
+  "image_name": "Coupon12-dome-60min250.png",
+  "annotation_name": "Coupon12-dome-60min250.json",
+  "prediction_overlay_image": "Coupon12-dome-60min250_triptych.png",
+  "ground_truth_labels": [
+    "Contour",
+    "Polished",
+    "Powder"
+  ],
+  "predicted_labels": [
+    "Contour",
+    "Polished",
+    "Powder"
+  ],
+  "exact_label_match": true,
+  "label_precision": 1.0,
+  "label_recall": 1.0,
+  "label_f1": 1.0,
+  "pixel_accuracy": 0.8405754084584115,
+  "mean_iou_non_background": 0.5705043683473122,
+  "per_class_iou": {
+    "Contour": 0.47098894600373015,
+    "Polished": 0.8494007193710775,
+    "Powder": 0.391123439667129
+  }
+}

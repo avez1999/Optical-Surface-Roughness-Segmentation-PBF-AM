@@ -1,0 +1,26 @@
+{
+  "image_name": "Coupon6-side-75min175.png",
+  "annotation_name": "Coupon6-side-75min175.json",
+  "prediction_overlay_image": "Coupon6-side-75min175_triptych.png",
+  "ground_truth_labels": [
+    "Contour",
+    "Polished",
+    "Powder"
+  ],
+  "predicted_labels": [
+    "Contour",
+    "Polished",
+    "Powder"
+  ],
+  "exact_label_match": true,
+  "label_precision": 1.0,
+  "label_recall": 1.0,
+  "label_f1": 1.0,
+  "pixel_accuracy": 0.7614756781582239,
+  "mean_iou_non_background": 0.4807777786175725,
+  "per_class_iou": {
+    "Contour": 0.4426747085016276,
+    "Polished": 0.7439957224229419,
+    "Powder": 0.2556629049281481
+  }
+}

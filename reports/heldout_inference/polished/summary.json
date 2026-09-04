@@ -1,0 +1,172 @@
+{
+  "num_test_images": 6,
+  "labeling_accuracy_exact_match": 1.0,
+  "mean_label_precision": 1.0,
+  "mean_label_recall": 1.0,
+  "mean_label_f1": 1.0,
+  "mean_pixel_accuracy": 0.7968616995865472,
+  "mean_segmentation_iou_non_background": 0.5570931742022392,
+  "per_class_mean_iou": {
+    "Contour": 0.48543769728001734,
+    "Polished": 0.7936045986779283,
+    "Powder": 0.3922372266487723
+  },
+  "samples": [
+    {
+      "image_name": "Coupon12-slope-90min250.png",
+      "annotation_name": "Coupon12-slope-90min250.json",
+      "prediction_overlay_image": "Coupon12-slope-90min250_triptych.png",
+      "ground_truth_labels": [
+        "Contour",
+        "Polished",
+        "Powder"
+      ],
+      "predicted_labels": [
+        "Contour",
+        "Polished",
+        "Powder"
+      ],
+      "exact_label_match": true,
+      "label_precision": 1.0,
+      "label_recall": 1.0,
+      "label_f1": 1.0,
+      "pixel_accuracy": 0.8147010827079425,
+      "mean_iou_non_background": 0.5810381117224437,
+      "per_class_iou": {
+        "Contour": 0.4856288902903836,
+        "Polished": 0.8204831029565729,
+        "Powder": 0.4370023419203747
+      }
+    },
+    {
+      "image_name": "Coupon6-dome-30min175.png",
+      "annotation_name": "Coupon6-dome-30min175.json",
+      "prediction_overlay_image": "Coupon6-dome-30min175_triptych.png",
+      "ground_truth_labels": [
+        "Contour",
+        "Polished",
+        "Powder"
+      ],
+      "predicted_labels": [
+        "Contour",
+        "Polished",
+        "Powder"
+      ],
+      "exact_label_match": true,
+      "label_precision": 1.0,
+      "label_recall": 1.0,
+      "label_f1": 1.0,
+      "pixel_accuracy": 0.7436410451844903,
+      "mean_iou_non_background": 0.5314219207944556,
+      "per_class_iou": {
+        "Contour": 0.40766214078565777,
+        "Polished": 0.7277832807771649,
+        "Powder": 0.45882034082054407
+      }
+    },
+    {
+      "image_name": "Coupon6-side-75min175.png",
+      "annotation_name": "Coupon6-side-75min175.json",
+      "prediction_overlay_image": "Coupon6-side-75min175_triptych.png",
+      "ground_truth_labels": [
+        "Contour",
+        "Polished",
+        "Powder"
+      ],
+      "predicted_labels": [
+        "Contour",
+        "Polished",
+        "Powder"
+      ],
+      "exact_label_match": true,
+      "label_precision": 1.0,
+      "label_recall": 1.0,
+      "label_f1": 1.0,
+      "pixel_accuracy": 0.7614756781582239,
+      "mean_iou_non_background": 0.4807777786175725,
+      "per_class_iou": {
+        "Contour": 0.4426747085016276,
+        "Polished": 0.7439957224229419,
+        "Powder": 0.2556629049281481
+      }
+    },
+    {
+      "image_name": "Coupon6-slope-75min175.png",
+      "annotation_name": "Coupon6-slope-75min175.json",
+      "prediction_overlay_image": "Coupon6-slope-75min175_triptych.png",
+      "ground_truth_labels": [
+        "Contour",
+        "Polished",
+        "Powder"
+      ],
+      "predicted_labels": [
+        "Contour",
+        "Polished",
+        "Powder"
+      ],
+      "exact_label_match": true,
+      "label_precision": 1.0,
+      "label_recall": 1.0,
+      "label_f1": 1.0,
+      "pixel_accuracy": 0.8007568206691682,
+      "mean_iou_non_background": 0.5845046776706918,
+      "per_class_iou": {
+        "Contour": 0.5695420780212973,
+        "Polished": 0.7832575114465488,
+        "Powder": 0.4007144435442292
+      }
+    },
+    {
+      "image_name": "Coupon12-slope-60min250.png",
+      "annotation_name": "Coupon12-slope-60min250.json",
+      "prediction_overlay_image": "Coupon12-slope-60min250_triptych.png",
+      "ground_truth_labels": [
+        "Contour",
+        "Polished",
+        "Powder"
+      ],
+      "predicted_labels": [
+        "Contour",
+        "Polished",
+        "Powder"
+      ],
+      "exact_label_match": true,
+      "label_precision": 1.0,
+      "label_recall": 1.0,
+      "label_f1": 1.0,
+      "pixel_accuracy": 0.8200201623410465,
+      "mean_iou_non_background": 0.5943121880609598,
+      "per_class_iou": {
+        "Contour": 0.5361294200774074,
+        "Polished": 0.8367072550932633,
+        "Powder": 0.4100998890122087
+      }
+    },
+    {
+      "image_name": "Coupon12-dome-60min250.png",
+      "annotation_name": "Coupon12-dome-60min250.json",
+      "prediction_overlay_image": "Coupon12-dome-60min250_triptych.png",
+      "ground_truth_labels": [
+        "Contour",
+        "Polished",
+        "Powder"
+      ],
+      "predicted_labels": [
+        "Contour",
+        "Polished",
+        "Powder"
+      ],
+      "exact_label_match": true,
+      "label_precision": 1.0,
+      "label_recall": 1.0,
+      "label_f1": 1.0,
+      "pixel_accuracy": 0.8405754084584115,
+      "mean_iou_non_background": 0.5705043683473122,
+      "per_class_iou": {
+        "Contour": 0.47098894600373015,
+        "Polished": 0.8494007193710775,
+        "Powder": 0.391123439667129
+      }
+    }
+  ]
+}

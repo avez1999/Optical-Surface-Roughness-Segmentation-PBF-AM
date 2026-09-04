@@ -1,0 +1,113 @@
+{
+  "checkpoint": "/storage/work/aas6636/R_CNN/unet/outputs_asbuilt_vanilla_retrain_ep200_patience60/best_unet.pt",
+  "dataset": "asbuilt",
+  "test_image_count": 2,
+  "split_seed": 42,
+  "pixel_accuracy": 0.7178115065405462,
+  "macro_iou_excluding_background": 0.30223219798321826,
+  "macro_dice_excluding_background": 0.4450135984031338,
+  "macro_precision_excluding_background": 0.4978435019511121,
+  "macro_recall_excluding_background": 0.45747355678375756,
+  "per_class": {
+    "background": {
+      "iou": 0.6449145517509434,
+      "dice": 0.7841313715225615,
+      "precision": 0.6837287474428723,
+      "recall": 0.9190967779579147,
+      "support_pixels": 2639351
+    },
+    "Anomaly": {
+      "iou": 0.1102655771195097,
+      "dice": 0.19862919177515065,
+      "precision": 0.22410213826032802,
+      "recall": 0.17835605121850476,
+      "support_pixels": 12105
+    },
+    "Contour": {
+      "iou": 0.44193004191159024,
+      "dice": 0.6129701567570038,
+      "precision": 0.8572669189767832,
+      "recall": 0.47703010427594716,
+      "support_pixels": 2179026
+    },
+    "Powder": {
+      "iou": 0.3545009749185549,
+      "dice": 0.523441446677247,
+      "precision": 0.4121614486162251,
+      "recall": 0.7170345148568209,
+      "support_pixels": 81646
+    }
+  },
+  "per_image_macro_iou_excluding_background": {
+    "mean": 0.29624598637878546,
+    "std": 0.02889836714219784,
+    "min": 0.27581175500731886,
+    "max": 0.31668021775025207
+  },
+  "per_image_macro_dice_excluding_background": {
+    "mean": 0.4348770705831341,
+    "std": 0.024499468027349966,
+    "min": 0.4175533306055319,
+    "max": 0.45220081056073624
+  },
+  "per_image": [
+    {
+      "image": "Coupon11-dome-control.png",
+      "metrics": {
+        "background": {
+          "iou": 0.5987975594715159,
+          "dice": 0.7490598868182523,
+          "precision": 0.64636454975808,
+          "recall": 0.8905520952391082
+        },
+        "Anomaly": {
+          "iou": 0.14885252868678284,
+          "dice": 0.2591325256635531,
+          "precision": 0.2434827945776851,
+          "recall": 0.2769322000395335
+        },
+        "Contour": {
+          "iou": 0.44802942602581974,
+          "dice": 0.618812598657551,
+          "precision": 0.840215508728757,
+          "recall": 0.48975783876898615
+        },
+        "Powder": {
+          "iou": 0.2305533103093541,
+          "dice": 0.3747148674954916,
+          "precision": 0.25117276933668486,
+          "recall": 0.737425965967848
+        }
+      }
+    },
+    {
+      "image": "Coupon10-dome-control.png",
+      "metrics": {
+        "background": {
+          "iou": 0.6880454607427758,
+          "dice": 0.8151977855383364,
+          "precision": 0.7174872230132765,
+          "recall": 0.9437173624636577
+        },
+        "Anomaly": {
+          "iou": 0.07454760031471283,
+          "dice": 0.13875160168405637,
+          "precision": 0.19536082474226804,
+          "recall": 0.10757876809537326
+        },
+        "Contour": {
+          "iou": 0.43413029198565356,
+          "dice": 0.6054265702519537,
+          "precision": 0.8808584919383691,
+          "recall": 0.46121210499338183
+        },
+        "Powder": {
+          "iou": 0.44136276095038984,
+          "dice": 0.6124242597461987,
+          "precision": 0.538514702186479,
+          "recall": 0.7098489365931226
+        }
+      }
+    }
+  ]
+}

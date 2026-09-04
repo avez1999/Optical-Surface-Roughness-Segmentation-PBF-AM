@@ -1,0 +1,26 @@
+{
+  "image_name": "Coupon12-slope-60min250.png",
+  "annotation_name": "Coupon12-slope-60min250.json",
+  "prediction_overlay_image": "Coupon12-slope-60min250_triptych.png",
+  "ground_truth_labels": [
+    "Contour",
+    "Polished",
+    "Powder"
+  ],
+  "predicted_labels": [
+    "Contour",
+    "Polished",
+    "Powder"
+  ],
+  "exact_label_match": true,
+  "label_precision": 1.0,
+  "label_recall": 1.0,
+  "label_f1": 1.0,
+  "pixel_accuracy": 0.8200201623410465,
+  "mean_iou_non_background": 0.5943121880609598,
+  "per_class_iou": {
+    "Contour": 0.5361294200774074,
+    "Polished": 0.8367072550932633,
+    "Powder": 0.4100998890122087
+  }
+}

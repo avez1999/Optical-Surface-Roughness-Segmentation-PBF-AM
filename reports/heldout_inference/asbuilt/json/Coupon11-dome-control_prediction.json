@@ -1,0 +1,26 @@
+{
+  "image_name": "Coupon11-dome-control.png",
+  "annotation_name": "Coupon11-dome-control.json",
+  "prediction_overlay_image": "Coupon11-dome-control_triptych.png",
+  "ground_truth_labels": [
+    "Anomaly",
+    "Contour",
+    "Powder"
+  ],
+  "predicted_labels": [
+    "Anomaly",
+    "Contour",
+    "Powder"
+  ],
+  "exact_label_match": true,
+  "label_precision": 1.0,
+  "label_recall": 1.0,
+  "label_f1": 1.0,
+  "pixel_accuracy": 0.6909274351156973,
+  "mean_iou_non_background": 0.2757968827970233,
+  "per_class_iou": {
+    "Anomaly": 0.1487778958554729,
+    "Contour": 0.4480334748321296,
+    "Powder": 0.23057927770346742
+  }
+}

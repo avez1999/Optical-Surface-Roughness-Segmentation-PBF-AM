@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+
+outputs*/
+test_predictions/
+paper_figures*/
+*.log
+
+unet_annotation_review_candidates/
