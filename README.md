@@ -38,6 +38,14 @@ Example polished test image: `Coupon12-dome-60min250`. The ground-truth and pred
 | --- | --- | --- |
 | ![Optical image](assets/readme_example/optical_image.png) | ![Ground truth overlay](assets/readme_example/ground_truth_overlay.png) | ![Prediction overlay](assets/readme_example/prediction_overlay.png) |
 
+## Example Held-Out Prediction: As-Built
+
+Example as-built test image: `Coupon10-dome-control`. The ground-truth and prediction panels are overlays on the same optical image. Red denotes `Anomaly`, blue denotes `Contour`, and green denotes `Powder`; uncolored regions are background.
+
+| Optical Image | Ground Truth Overlay | Prediction Overlay |
+| --- | --- | --- |
+| ![As-built optical image](assets/readme_example/asbuilt/optical_image.png) | ![As-built ground truth overlay](assets/readme_example/asbuilt/ground_truth_overlay.png) | ![As-built prediction overlay](assets/readme_example/asbuilt/prediction_overlay.png) |
+
 ## Running the Models
 
 Install the dependencies listed in `requirements.txt`, then run from the repository root:
