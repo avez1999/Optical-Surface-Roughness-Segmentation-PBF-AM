@@ -317,7 +317,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--num-workers", type=int, default=0)
     parser.add_argument("--base-channels", type=int, default=32)
-    parser.add_argument("--early-stopping-patience", type=int, default=20)
+    parser.add_argument("--early-stopping-patience", type=int, default=60)
     parser.add_argument("--early-stopping-min-delta", type=float, default=0.0)
     return parser.parse_args()
 

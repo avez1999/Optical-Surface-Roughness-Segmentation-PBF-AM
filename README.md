@@ -52,7 +52,7 @@ docs/                         Data-records text and release documentation
 
 ## Reference Experiment
 
-The reference vanilla U-Net uses 32 base channels, weighted cross-entropy plus multiclass Dice loss, seed 42, and a 70/20/10 train/validation/test partition. The native image sizes vary, so the reference retraining uses batch size 1.
+The reference vanilla U-Net uses 32 base channels, weighted cross-entropy plus multiclass Dice loss, seed 42, a 70/20/10 train/validation/test partition, and early stopping with patience 60 epochs. The native image sizes vary, so the reference retraining uses batch size 1.
 
 The fixed splits contain 33/9/6 polished images and 9/2/2 as-built images. The split manifests in `reports/data_statistics/` provide the image-level assignment.
 
