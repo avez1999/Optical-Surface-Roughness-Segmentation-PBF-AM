@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this dataset or code, please cite it as described below."
 type: dataset
-title: "Annotated Optical Microscopy Data for Surface Feature Recognition in Laser Powder Bed Fusion"
+title: "Optical Surface Roughness Segmentation for Powder Bed Fusion Additive Manufacturing"
 authors:
   - family-names: Shaikh
     given-names: Avez
@@ -15,6 +15,6 @@ authors:
   - family-names: Manogharan
     given-names: Guha
     affiliation: "Department of Mechanical Engineering and Department of Industrial and Manufacturing Engineering, The Pennsylvania State University, University Park, Pennsylvania, USA"
-repository-code: "https://github.com/avez1999/LPBF-Optical-Surface-Defect-Segmentation"
-url: "https://github.com/avez1999/LPBF-Optical-Surface-Defect-Segmentation"
+repository-code: "https://github.com/avez1999/Optical-Surface-Roughness-Segmentation-PBF-AM"
+url: "https://github.com/avez1999/Optical-Surface-Roughness-Segmentation-PBF-AM"
 license: MIT
