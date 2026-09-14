@@ -80,12 +80,12 @@ The eight held-out test triptychs are in `reports/heldout_inference/`. Each file
 
 The following inference-only examples compare each native optical image with its automatic annotation overlay. They do not have ground-truth masks. Red, blue, and green follow the model-specific class maps above.
 
-### EBM Side Surfaces
+### EBM Dome Surfaces
 
 | Surface state | Optical Image | Prediction Overlay |
 | --- | --- | --- |
-| EBM CDF-polished, side | ![EBM polished optical side surface](assets/readme_baseline/ebm_polished_optical.png) | ![EBM polished prediction side surface](assets/readme_baseline/ebm_polished_prediction.png) |
-| EBM as-built, side | ![EBM as-built optical side surface](assets/readme_baseline/ebm_asbuilt_optical.png) | ![EBM as-built prediction side surface](assets/readme_baseline/ebm_asbuilt_prediction.png) |
+| EBM CDF-polished, dome (`EBM1-dome-60min175`) | ![EBM polished optical dome surface](assets/readme_baseline/ebm_polished_optical.png) | ![EBM polished prediction dome surface](assets/readme_baseline/ebm_polished_prediction.png) |
+| EBM as-built, dome (`EBM1-dome-control`) | ![EBM as-built optical dome surface](assets/readme_baseline/ebm_asbuilt_optical.png) | ![EBM as-built prediction dome surface](assets/readme_baseline/ebm_asbuilt_prediction.png) |
 
 ### As-Built Tensile-Bar Controls
 
