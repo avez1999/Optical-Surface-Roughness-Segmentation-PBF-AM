@@ -8,6 +8,16 @@ The annotated reference dataset contains two LPBF surface states: CDF-polished a
 
 The EBM examples are inference-only pseudo-labels: the reference models were trained on the annotated LPBF data, and no EBM ground-truth masks are available in this repository for quantitative accuracy assessment.
 
+## Specimen Geometries and Surface Views
+
+The curved coupon provides dome, slope, side, and top surface regions relative to the build direction. These views support comparison of optical surface appearance and segmentation across CDF-polished and as-built conditions.
+
+![Curved coupon surface views](assets/specimen_geometries/coupon_surface_views.png)
+
+The tensile-bar controls represent 45-degree and 90-degree build orientations. The associated optical surface-characterization views include side-skin, up-skin, and down-skin regions.
+
+![Tensile-bar geometries and surface characterization](assets/specimen_geometries/tensile_bar_and_surface_characterization.png)
+
 ## Annotated LPBF Reference Dataset
 
 The two annotated LPBF subsets are stored in `DATA/` and preserve a one-to-one relationship between each PNG micrograph and JSON annotation.
