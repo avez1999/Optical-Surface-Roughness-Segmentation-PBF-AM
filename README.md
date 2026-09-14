@@ -78,7 +78,7 @@ The eight held-out test triptychs are in `reports/heldout_inference/`. Each file
 
 ## Unannotated PBF-AM Baselines
 
-The following inference-only examples compare each native optical image with its automatic annotation overlay. They do not have ground-truth masks. Red, blue, and green follow the model-specific class maps above.
+The following inference-only examples compare each native optical image with its automatic annotation overlay. They do not have ground-truth masks. For CDF-polished EBM images, red denotes `Contour`, blue denotes `Polished`, and green denotes `Powder`. For as-built EBM images and tensile-bar controls, red denotes `Anomaly`, blue denotes `Contour`, and green denotes `Powder`.
 
 ### EBM Dome Surfaces
 
