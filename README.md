@@ -27,12 +27,25 @@ The two annotated LPBF subsets are stored in `DATA/` and preserve a one-to-one r
 
 The JSON files contain class labels and ordered polygon vertices. The field-level annotation format and the class maps are documented in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md).
 
+## Non-Annotated Inference Data
+
+`DATA/Non_Annotated_PNGs/` contains 22 optical images without manual masks: 12 CDF-polished EBM images and 10 as-built images comprising EBM views and 45-degree/90-degree bar controls. Automatic annotations created by the reference U-Net checkpoints are provided in `reports/unannotated_inference/`.
+
+For each surface state, the inference export contains:
+
+- `prediction_overlay/`: optical images with transparent class-color predictions.
+- `prediction_mask/`: single-channel PNG masks storing the predicted class index per pixel.
+- `summary.json`: per-image predicted class-pixel counts and percentages.
+
+These pseudo-labels support qualitative inspection and annotation triage only; they are not ground truth.
+
 ## Repository Layout
 
 ```text
 DATA/                         Paired optical PNG images and JSON annotations
+DATA/Non_Annotated_PNGs/      Complete CDF-polished and as-built inference-only PNG collections
 models/reference/             Best-validation-loss polished and as-built U-Net checkpoints
-reports/                      Fixed split manifests, statistics, metrics, loss figures, and test triptychs
+reports/                      Fixed split manifests, statistics, metrics, loss figures, and inference exports
 unet/                         Training, inference, and figure-generation scripts
 docs/                         Data-records text and release documentation
 ```

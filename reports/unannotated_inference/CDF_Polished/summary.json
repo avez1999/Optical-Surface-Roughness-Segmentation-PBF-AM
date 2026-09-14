@@ -1,0 +1,263 @@
+{
+  "checkpoint": "/storage/home/aas6636/lpbf-surface-segmentation/models/reference/polished_best_unet.pt",
+  "source_directory": "/storage/work/aas6636/Usable Data/polished/Non_Annotated",
+  "dataset_role": "unannotated inference only; no ground truth is available for metric calculation",
+  "class_map": {
+    "background": 0,
+    "Contour": 1,
+    "Polished": 2,
+    "Powder": 3
+  },
+  "overlay_palette_rgb": {
+    "background": [
+      0,
+      0,
+      0
+    ],
+    "Contour": [
+      230,
+      57,
+      70
+    ],
+    "Polished": [
+      29,
+      161,
+      242
+    ],
+    "Powder": [
+      46,
+      204,
+      113
+    ]
+  },
+  "images": [
+    {
+      "image_name": "EBM1-dome-30min175.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 1532211,
+        "Contour": 469234,
+        "Polished": 453948,
+        "Powder": 671
+      },
+      "predicted_pixel_percentages": {
+        "background": 62.384815705128204,
+        "Contour": 19.10512103919116,
+        "Polished": 18.482743120700437,
+        "Powder": 0.027320134980195955
+      }
+    },
+    {
+      "image_name": "EBM1-dome-60min175.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 1348063,
+        "Contour": 439296,
+        "Polished": 668114,
+        "Powder": 591
+      },
+      "predicted_pixel_percentages": {
+        "background": 54.88712834844694,
+        "Contour": 17.88617886178862,
+        "Polished": 27.202629898895143,
+        "Powder": 0.024062890869293307
+      }
+    },
+    {
+      "image_name": "EBM1-dome-75min175.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 1263253,
+        "Contour": 411462,
+        "Polished": 780822,
+        "Powder": 527
+      },
+      "predicted_pixel_percentages": {
+        "background": 51.43404243537628,
+        "Contour": 16.752902204502814,
+        "Polished": 31.791598264540337,
+        "Powder": 0.02145709558057119
+      }
+    },
+    {
+      "image_name": "EBM1-side-30min175.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 1895640,
+        "Contour": 162372,
+        "Polished": 395818,
+        "Powder": 2234
+      },
+      "predicted_pixel_percentages": {
+        "background": 77.18202782989368,
+        "Contour": 6.611065509693558,
+        "Polished": 16.1159481186158,
+        "Powder": 0.09095854179695644
+      }
+    },
+    {
+      "image_name": "EBM1-side-60min175.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 1691777,
+        "Contour": 135826,
+        "Polished": 625909,
+        "Powder": 2552
+      },
+      "predicted_pixel_percentages": {
+        "background": 68.88163337763186,
+        "Contour": 5.5302304825932875,
+        "Polished": 25.484230052637066,
+        "Powder": 0.10390608713779445
+      }
+    },
+    {
+      "image_name": "EBM1-side-75min175.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 1568815,
+        "Contour": 112873,
+        "Polished": 772736,
+        "Powder": 1640
+      },
+      "predicted_pixel_percentages": {
+        "background": 63.87516774807171,
+        "Contour": 4.595686431623932,
+        "Polished": 31.46237231603085,
+        "Powder": 0.06677350427350427
+      }
+    },
+    {
+      "image_name": "EBM1-slope-30min175.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 1517862,
+        "Contour": 578226,
+        "Polished": 359155,
+        "Powder": 821
+      },
+      "predicted_pixel_percentages": {
+        "background": 61.80058825828643,
+        "Contour": 23.542790415884927,
+        "Polished": 14.623193858140505,
+        "Powder": 0.03342746768813842
+      }
+    },
+    {
+      "image_name": "EBM1-slope-60min175.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 1421454,
+        "Contour": 514101,
+        "Polished": 519892,
+        "Powder": 617
+      },
+      "predicted_pixel_percentages": {
+        "background": 57.87528338023765,
+        "Contour": 20.931905683239524,
+        "Polished": 21.16768944131749,
+        "Powder": 0.02512149520533667
+      }
+    },
+    {
+      "image_name": "EBM1-slope-75min175.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 1374278,
+        "Contour": 490396,
+        "Polished": 590856,
+        "Powder": 534
+      },
+      "predicted_pixel_percentages": {
+        "background": 55.95448652803836,
+        "Contour": 19.966743537627686,
+        "Polished": 24.057027829893684,
+        "Powder": 0.021742104440275172
+      }
+    },
+    {
+      "image_name": "EBM1-top-30min175.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 459104,
+        "Contour": 1157771,
+        "Polished": 839023,
+        "Powder": 166
+      },
+      "predicted_pixel_percentages": {
+        "background": 18.692672503648115,
+        "Contour": 47.13928464404837,
+        "Polished": 34.1612840707734,
+        "Powder": 0.006758781530122993
+      }
+    },
+    {
+      "image_name": "EBM1-top-60min175.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 407837,
+        "Contour": 968964,
+        "Polished": 1079090,
+        "Powder": 173
+      },
+      "predicted_pixel_percentages": {
+        "background": 16.60530833072754,
+        "Contour": 39.45190353345841,
+        "Polished": 43.935744345424226,
+        "Powder": 0.007043790389826975
+      }
+    },
+    {
+      "image_name": "EBM1-top-75min175.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 397179,
+        "Contour": 899778,
+        "Polished": 1158896,
+        "Powder": 211
+      },
+      "predicted_pixel_percentages": {
+        "background": 16.17136198405253,
+        "Contour": 36.63495739524703,
+        "Polished": 47.18508963935793,
+        "Powder": 0.008590981342505733
+      }
+    }
+  ]
+}

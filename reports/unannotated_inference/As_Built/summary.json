@@ -1,0 +1,225 @@
+{
+  "checkpoint": "/storage/home/aas6636/lpbf-surface-segmentation/models/reference/asbuilt_best_unet.pt",
+  "source_directory": "/storage/work/aas6636/Usable Data/as_built/Non_Annotated",
+  "dataset_role": "unannotated inference only; no ground truth is available for metric calculation",
+  "class_map": {
+    "background": 0,
+    "Anomaly": 1,
+    "Contour": 2,
+    "Powder": 3
+  },
+  "overlay_palette_rgb": {
+    "background": [
+      0,
+      0,
+      0
+    ],
+    "Anomaly": [
+      230,
+      57,
+      70
+    ],
+    "Contour": [
+      29,
+      161,
+      242
+    ],
+    "Powder": [
+      46,
+      204,
+      113
+    ]
+  },
+  "images": [
+    {
+      "image_name": "Bar45-12-down-control.png",
+      "source_size_px": {
+        "width": 2752,
+        "height": 1391
+      },
+      "predicted_pixel_counts": {
+        "background": 2569801,
+        "Anomaly": 137860,
+        "Contour": 899714,
+        "Powder": 220657
+      },
+      "predicted_pixel_percentages": {
+        "background": 67.13112638556835,
+        "Anomaly": 3.601328306555431,
+        "Contour": 23.503304047615067,
+        "Powder": 5.764241260261147
+      }
+    },
+    {
+      "image_name": "Bar45-12-up-control.png",
+      "source_size_px": {
+        "width": 2752,
+        "height": 1391
+      },
+      "predicted_pixel_counts": {
+        "background": 1972010,
+        "Anomaly": 105414,
+        "Contour": 1630148,
+        "Powder": 120460
+      },
+      "predicted_pixel_percentages": {
+        "background": 51.51498211091234,
+        "Anomaly": 2.753738735726347,
+        "Contour": 42.58449250163008,
+        "Powder": 3.146786651731229
+      }
+    },
+    {
+      "image_name": "Bar90-12-control.png",
+      "source_size_px": {
+        "width": 2752,
+        "height": 1391
+      },
+      "predicted_pixel_counts": {
+        "background": 1934235,
+        "Anomaly": 114820,
+        "Contour": 1528198,
+        "Powder": 250779
+      },
+      "predicted_pixel_percentages": {
+        "background": 50.52818262752245,
+        "Anomaly": 2.999452460167522,
+        "Contour": 39.921244127530805,
+        "Powder": 6.551120784779228
+      }
+    },
+    {
+      "image_name": "Coupon10-top-control.png",
+      "source_size_px": {
+        "width": 3648,
+        "height": 720
+      },
+      "predicted_pixel_counts": {
+        "background": 617966,
+        "Anomaly": 47723,
+        "Contour": 1937719,
+        "Powder": 23152
+      },
+      "predicted_pixel_percentages": {
+        "background": 23.527579800194932,
+        "Anomaly": 1.8169392665692008,
+        "Contour": 73.77402381822613,
+        "Powder": 0.8814571150097466
+      }
+    },
+    {
+      "image_name": "Coupon11-top-control.png",
+      "source_size_px": {
+        "width": 3648,
+        "height": 720
+      },
+      "predicted_pixel_counts": {
+        "background": 733124,
+        "Anomaly": 45257,
+        "Contour": 1825269,
+        "Powder": 22910
+      },
+      "predicted_pixel_percentages": {
+        "background": 27.91194566276803,
+        "Anomaly": 1.723052205165692,
+        "Contour": 69.49275858918129,
+        "Powder": 0.8722435428849903
+      }
+    },
+    {
+      "image_name": "Coupon12-top-control.png",
+      "source_size_px": {
+        "width": 3648,
+        "height": 720
+      },
+      "predicted_pixel_counts": {
+        "background": 741761,
+        "Anomaly": 35085,
+        "Contour": 1821863,
+        "Powder": 27851
+      },
+      "predicted_pixel_percentages": {
+        "background": 28.240778813352826,
+        "Anomaly": 1.3357775950292399,
+        "Contour": 69.36308327241716,
+        "Powder": 1.0603603192007798
+      }
+    },
+    {
+      "image_name": "EBM1-Slope-control.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 1687857,
+        "Anomaly": 12405,
+        "Contour": 753798,
+        "Powder": 2004
+      },
+      "predicted_pixel_percentages": {
+        "background": 68.72202841619762,
+        "Anomaly": 0.5050764149468417,
+        "Contour": 30.691301203877423,
+        "Powder": 0.08159396497811132
+      }
+    },
+    {
+      "image_name": "EBM1-dome-control.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 1883604,
+        "Anomaly": 47111,
+        "Contour": 521663,
+        "Powder": 3686
+      },
+      "predicted_pixel_percentages": {
+        "background": 76.69197545340838,
+        "Anomaly": 1.9181503413591827,
+        "Contour": 21.239796682822597,
+        "Powder": 0.1500775224098395
+      }
+    },
+    {
+      "image_name": "EBM1-side-control.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 2189482,
+        "Anomaly": 85512,
+        "Contour": 171474,
+        "Powder": 9596
+      },
+      "predicted_pixel_percentages": {
+        "background": 89.14596688034187,
+        "Anomaly": 3.48166823014384,
+        "Contour": 6.981658458411507,
+        "Powder": 0.3907064311027726
+      }
+    },
+    {
+      "image_name": "EBM1-top-control.png",
+      "source_size_px": {
+        "width": 1536,
+        "height": 1599
+      },
+      "predicted_pixel_counts": {
+        "background": 293180,
+        "Anomaly": 692,
+        "Contour": 2161892,
+        "Powder": 300
+      },
+      "predicted_pixel_percentages": {
+        "background": 11.936985355430478,
+        "Anomaly": 0.0281751615593079,
+        "Contour": 88.02262481759433,
+        "Powder": 0.012214665415884928
+      }
+    }
+  ]
+}
