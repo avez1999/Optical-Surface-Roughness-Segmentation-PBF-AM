@@ -10,3 +10,4 @@ paper_figures*/
 *.log
 
 unet_annotation_review_candidates/
+inference/
